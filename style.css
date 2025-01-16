@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.wrapper{
+ height: 100%;
+ width:100%;
+ background-color:white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* text-align: center; */
+}
+
+.box{
+    height:90%;
+    width: 90%;
+    background-color: red;
+   
+}
+.label{
+    height:12%;
+    width:100%;
+    background-color:white;
+    text-align: center;
+}
+.label h1{
+    font-size:4.5vw;
+    color: rgb(20, 19, 19);
+    
+}
+.page{
+    height: 88%;
+    width: 100%;
+    background-color: chocolate;
+    display:flex;
+    justify-content: center;
+    align-items: end;
+    background-image: url(p1.jpg);
+}
+.content{
+    height:10%;
+    width: 15%;
+    /* background-color: cadetblue; */
+}
+.content a{
+    text-align: center;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding:.8vw .8vw;
+    border:2px dotted white;
+}
+

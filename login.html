@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color:hotpink;
+    background-image:url(p2.avif);
+    background-position: center;
+    background-size: cover;
+    
+   
+    }   
+    .wrap{
+        height:60%;
+        width:30%;
+        background-color: rgba(245, 245, 249, 0.590);
+        /* background-image:url(p2.avif); */
+    }
+
+    .wrap h2{
+      text-align: center;
+      font-size:4vw;
+    }
+
+    .btn button{
+        padding:.4vw 1.5vw;
+        border:none;
+        font-weight:500;
+        font-size:1vw;
+        text-align: center;
+        margin-left:2vw;
+        /* border:2px solid rgb(41, 40, 42); */
+    }
+    
+    .in-text{
+        text-align: center;
+
+    }
+
+    .in-text label{
+        font-size:1.2vw;
+        font-weight:500;
+    }
+
+    .in-text input{
+        padding:.6vw 2vw;
+        border: none;
+    
+    }
+    .in1{
+        margin-left:1vw;
+    }
+    .in2{
+        margin-left:.5vw;
+        padding-top:6vw;
+    }
+
+    .btn{
+        margin-top:3vw;
+        /* padding-left:1.5vw; */
+
+        text-align: center;
+    }
+    .btn1{
+        background-color: green;
+    }
+    .btn2{
+        background-color: red;
+    }
+</style>
+<body>
+    <div class="wrap">
+        <div class="lform">
+            <h2>LOGIN PAGE</h2>
+            <br><br>
+           
+            <div class="in-text">
+
+                <br><br>
+                <label>User Name:</label>   
+                <input type="text" class="in2"> <br><br>
+                <br><br>
+                <label>Password:</label>
+                <input type="text" class="in1"> <br><br>
+            </div>
+            <div class="btn">
+                <button class="btn1">Log in</button>
+                <button class="btn2">Cancel</button>
+            </div>
+
+        </div>
+    </div>
+   
+</body>
+</html>
